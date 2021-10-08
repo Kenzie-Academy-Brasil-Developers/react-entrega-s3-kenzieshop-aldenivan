@@ -6,13 +6,13 @@ const ProductList = () => {
 
   return (
     <>
-      <div>
+      <ul>
         {products.map((product) => (
-          <li>
+          <li key={product.id}>
             <Product product={product} />
           </li>
         ))}
-      </div>
+      </ul>
     </>
   );
 };
