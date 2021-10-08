@@ -9,7 +9,7 @@ const Cart = () => {
       <ul>
         {cart.map((product) => (
           <li key={product.id}>
-            <Product product={product} />
+            <Product product={product} teste />
           </li>
         ))}
       </ul>
