@@ -23,7 +23,7 @@ export const defaultState = [
   {
     id: 4,
     name: "Microsoft Xbox 360 + Kinect Slim 4GB Standard cor matte black",
-    price: 5.28,
+    price: 890,
     image:
       "https://http2.mlstatic.com/D_NQ_NP_749276-MLA32731207914_112019-O.webp",
   },
@@ -51,7 +51,7 @@ export const defaultState = [
   {
     id: 8,
     name: "Nintendo Super NES Classic Edition 512MB cor cinza e violeta",
-    price: 5.28,
+    price: 125,
     image:
       "https://http2.mlstatic.com/D_NQ_NP_922126-MLA32731490477_112019-O.webp",
   },
