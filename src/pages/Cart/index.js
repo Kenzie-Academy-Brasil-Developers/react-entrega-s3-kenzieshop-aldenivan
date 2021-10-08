@@ -1,6 +1,6 @@
 import { Container, ContainerCart, TotalCart } from "./styles";
 import { useSelector } from "react-redux";
-import ProductCart from "../ProductCart";
+import ProductCart from "../../components/ProductCart";
 
 const Cart = () => {
   const { cart } = useSelector((state) => state);

@@ -1,7 +1,7 @@
 import "./App.css";
 import { Switch, Route } from "react-router";
-import ProductList from "./components/ProductList";
-import CartPage from "./pages/CartPage";
+import ProductList from "./pages/ProductList";
+import Cart from "./pages/Cart";
 import Menu from "./components/Menu";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
             <ProductList />
           </Route>
           <Route path="/cart">
-            <CartPage />
+            <Cart />
           </Route>
         </Switch>
       </div>

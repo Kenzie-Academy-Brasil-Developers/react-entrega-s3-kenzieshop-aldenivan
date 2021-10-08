@@ -1,6 +1,6 @@
 import { ContainerList } from "./styles";
 import { useSelector } from "react-redux";
-import Product from "../Product";
+import Product from "../../components/Product";
 
 const ProductList = () => {
   const { products } = useSelector((store) => store);
