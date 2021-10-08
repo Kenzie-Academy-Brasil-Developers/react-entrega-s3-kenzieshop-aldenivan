@@ -1,18 +1,19 @@
+import { ContainerCart } from "./styles";
 import { useSelector } from "react-redux";
-import Product from "../Product";
+import ProductCart from "../ProductCart";
 
 const Cart = () => {
   const { cart } = useSelector((state) => state);
 
   return (
     <>
-      <ul>
+      <ContainerCart>
         {cart.map((product) => (
           <li key={product.id}>
-            <Product product={product} teste />
+            <ProductCart product={product} />
           </li>
         ))}
-      </ul>
+      </ContainerCart>
     </>
   );
 };
