@@ -1,3 +1,4 @@
+import { ContainerList } from "./styles";
 import { useSelector } from "react-redux";
 import Product from "../Product";
 
@@ -6,13 +7,13 @@ const ProductList = () => {
 
   return (
     <>
-      <ul>
+      <ContainerList>
         {products.map((product) => (
           <li key={product.id}>
             <Product product={product} />
           </li>
         ))}
-      </ul>
+      </ContainerList>
     </>
   );
 };
