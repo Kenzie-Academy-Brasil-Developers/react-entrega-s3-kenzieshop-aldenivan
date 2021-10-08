@@ -2,13 +2,11 @@ import styled from "styled-components";
 
 export const ContainerCardCart = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background: white;
-  width: 300px;
-  height: 470px;
-  margin-bottom: 10px;
+  width: 800px;
+  height: 320px;
   color: black;
 
   img {
@@ -16,14 +14,8 @@ export const ContainerCardCart = styled.div`
     height: 300px;
   }
 
-  hr {
-    width: 95%;
-    border: 1px solid #dcdcdc;
-  }
-
   p {
-    width: 90%;
-    margin: 0 auto;
+    width: 350px;
     color: #808080;
     font-size: 16px;
     text-align: start;
@@ -33,4 +25,11 @@ export const ContainerCardCart = styled.div`
     font-weight: 700;
     margin: 10px;
   }
+`;
+
+export const Line = styled.hr`
+  width: 798px;
+  border: 1px solid #dcdcdc;
+  background: white;
+  margin: 0 auto;
 `;
