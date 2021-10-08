@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { MenuContainer } from "./styles";
+import { FiShoppingCart } from "react-icons/fi";
 
 const Menu = () => {
   return (
@@ -7,7 +8,7 @@ const Menu = () => {
       <ul>
         <li>Kenzie Shop </li>
         <li>
-          <Link to="/cart">Cart</Link>
+          <Link to="/cart">Cart {FiShoppingCart}</Link>
         </li>
       </ul>
     </MenuContainer>

@@ -10,6 +10,8 @@ export const ContainerCard = styled.div`
   height: 470px;
   margin-bottom: 10px;
   color: black;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.41);
 
   img {
     width: 250px;
