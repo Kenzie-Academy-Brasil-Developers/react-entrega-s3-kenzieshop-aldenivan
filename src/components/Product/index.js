@@ -1,6 +1,6 @@
 import { ContainerCard } from "./styles";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../store/modules/cart/actions";
+import { addToCartThunk } from "../../store/modules/cart/thunks";
 
 const Product = ({ product }) => {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ const Product = ({ product }) => {
         <hr />
         <p>{product.name}</p>
         <span> R$ {product.price.toFixed(2)}</span>
-        <button onClick={() => dispatch(addToCart(product))}>
+        <button onClick={() => dispatch(addToCartThunk(product))}>
           Adicionar ao carrinho
         </button>
       </ContainerCard>
