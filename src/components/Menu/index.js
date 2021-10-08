@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
+import { MenuContainer } from "./styles";
 
 const Menu = () => {
   return (
-    <nav>
+    <MenuContainer>
       <ul>
-        <li>Logo qualquer</li>
+        <li>Kenzie Shop </li>
         <li>
-          {" "}
-          <Link to="/cart">Carrinho</Link>
+          <Link to="/cart">Cart</Link>
         </li>
       </ul>
-    </nav>
+    </MenuContainer>
   );
 };
 
